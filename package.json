@@ -1,0 +1,17 @@
+{
+  "name": "difference_calculator",
+  "version": "1.0.0",
+  "description": "a small CLI which compare two documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "lexlex",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0"
+  }
+}

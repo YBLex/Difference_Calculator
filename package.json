@@ -1,22 +1,29 @@
 {
-    "name": "difference_calculator",
-    "version": "1.0.0",
-    "description": "a small CLI which compare two documents",
-    "repository": "https://github.com/YBLex/Difference_Calculator",
-    "main": "index.js",
-    "type": "module",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "bin": {
-        "gendiff": "bin/gendiff.js"
-    },
-    "keywords": [
-        "cli"
-    ],
-    "author": "lexlex",
-    "license": "ISC",
-    "dependencies": {
-        "commander": "^5.1.0"
-    }
+  "name": "difference_calculator",
+  "version": "1.0.0",
+  "description": "a small CLI which compare two documents",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YBLex/Difference_Calculator.git"
+  },
+  "homepage": "https://github.com/YBLex/Difference_Calculator#readme",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "npx -n --experimental-vm-modules jest"
+  },
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "lexlex",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0"
+  }
 }
